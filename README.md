@@ -80,7 +80,7 @@ python test_classification.py --log_dir pointnet2_cls_ssg --num_category 10
 ### Data Preparation
 Download alignment **ShapeNet** [here](https://shapenet.cs.stanford.edu/media/shapenetcore_partanno_segmentation_benchmark_v0_normal.zip)  and save in `data/shapenetcore_partanno_segmentation_benchmark_v0_normal/`.
 ### Run
-```
+```shell
 ## Check model in ./models 
 ## e.g., pointnet2_msg
 python train_partseg.py --model pointnet2_part_seg_msg --normal --log_dir pointnet2_part_seg_msg
@@ -105,7 +105,7 @@ python collect_indoor3d_data.py
 ```
 Processed data will save in `data/stanford_indoor3d/`.
 ### Run
-```
+```shell
 ## Check model in ./models 
 ## e.g., pointnet2_ssg
 python train_semseg.py --model pointnet2_sem_seg --test_area 5 --log_dir pointnet2_sem_seg
