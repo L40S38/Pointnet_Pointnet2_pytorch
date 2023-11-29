@@ -1,0 +1,10 @@
+2023-11-28 23:34:57,887 - Model - INFO - PARAMETER ...
+2023-11-28 23:34:57,887 - Model - INFO - Namespace(batch_size=16, decay_rate=0.0001, epoch=32, gpu='5', learning_rate=0.001, log_dir='pointnet2_sem_msg', lr_decay=0.7, model='pointnet2_sem_msg', npoint=4096, optimizer='Adam', step_size=10, test_area=5)
+2023-11-28 23:35:43,126 - Model - INFO - The number of training data is: 47623
+2023-11-28 23:35:43,127 - Model - INFO - The number of test data is: 18923
+2023-11-28 23:38:40,687 - Model - INFO - PARAMETER ...
+2023-11-28 23:38:40,687 - Model - INFO - Namespace(batch_size=16, decay_rate=0.0001, epoch=32, gpu='7', learning_rate=0.001, log_dir='pointnet2_sem_msg', lr_decay=0.7, model='pointnet2_sem_msg', npoint=4096, optimizer='Adam', step_size=10, test_area=5)
+2023-11-28 23:39:25,698 - Model - INFO - The number of training data is: 47623
+2023-11-28 23:39:25,698 - Model - INFO - The number of test data is: 18923
+2023-11-28 23:41:21,304 - Model - INFO - PARAMETER ...
+2023-11-28 23:41:21,304 - Model - INFO - Namespace(batch_size=16, decay_rate=0.0001, epoch=32, gpu='7', learning_rate=0.001, log_dir='pointnet2_sem_msg', lr_decay=0.7, model='pointnet2_sem_msg', npoint=4096, optimizer='Adam', step_size=10, test_area=5)
