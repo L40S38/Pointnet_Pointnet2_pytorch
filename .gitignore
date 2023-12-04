@@ -115,6 +115,7 @@ dmypy.json
 
 # data ignore
 data/
+log/sem_seg/pointnet2_sem_seg/visual/*
 
 # nohup ignore
 nohup.out
