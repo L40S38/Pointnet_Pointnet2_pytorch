@@ -1,3 +1,75 @@
 2023-11-28 23:37:13,838 - Model - INFO - PARAMETER ...
 2023-11-28 23:37:13,838 - Model - INFO - Namespace(batch_size=24, gpu='4', log_dir='pointnet2_part_seg_msg', normal=False, num_point=2048, num_votes=3)
 2023-11-28 23:37:13,916 - Model - INFO - The number of test data is: 2874
+2023-11-30 23:39:50,911 - Model - INFO - PARAMETER ...
+2023-11-30 23:39:50,911 - Model - INFO - Namespace(batch_size=24, gpu='5', log_dir='pointnet2_part_seg_msg', normal=True, num_point=2048, num_votes=3)
+2023-11-30 23:39:50,985 - Model - INFO - The number of test data is: 2874
+2023-11-30 23:48:07,894 - Model - INFO - eval mIoU of Airplane       0.833110
+2023-11-30 23:48:07,895 - Model - INFO - eval mIoU of Bag            0.834835
+2023-11-30 23:48:07,895 - Model - INFO - eval mIoU of Cap            0.856275
+2023-11-30 23:48:07,895 - Model - INFO - eval mIoU of Car            0.787028
+2023-11-30 23:48:07,895 - Model - INFO - eval mIoU of Chair          0.908364
+2023-11-30 23:48:07,895 - Model - INFO - eval mIoU of Earphone       0.725715
+2023-11-30 23:48:07,895 - Model - INFO - eval mIoU of Guitar         0.913440
+2023-11-30 23:48:07,895 - Model - INFO - eval mIoU of Knife          0.874242
+2023-11-30 23:48:07,895 - Model - INFO - eval mIoU of Lamp           0.843108
+2023-11-30 23:48:07,895 - Model - INFO - eval mIoU of Laptop         0.956755
+2023-11-30 23:48:07,895 - Model - INFO - eval mIoU of Motorbike      0.743238
+2023-11-30 23:48:07,895 - Model - INFO - eval mIoU of Mug            0.935589
+2023-11-30 23:48:07,895 - Model - INFO - eval mIoU of Pistol         0.812626
+2023-11-30 23:48:07,895 - Model - INFO - eval mIoU of Rocket         0.601411
+2023-11-30 23:48:07,895 - Model - INFO - eval mIoU of Skateboard     0.762240
+2023-11-30 23:48:07,896 - Model - INFO - eval mIoU of Table          0.827009
+2023-11-30 23:48:07,896 - Model - INFO - Accuracy is: 0.94429
+2023-11-30 23:48:07,896 - Model - INFO - Class avg accuracy is: 0.87733
+2023-11-30 23:48:07,896 - Model - INFO - Class avg mIOU is: 0.82594
+2023-11-30 23:48:07,896 - Model - INFO - Inctance avg mIOU is: 0.85465
+2023-12-01 20:02:38,426 - Model - INFO - PARAMETER ...
+2023-12-01 20:02:38,426 - Model - INFO - Namespace(batch_size=24, gpu='5', log_dir='pointnet2_part_seg_msg', normal=True, num_point=2048, num_votes=3)
+2023-12-01 20:02:38,503 - Model - INFO - The number of test data is: 2874
+2023-12-03 00:51:40,308 - Model - INFO - PARAMETER ...
+2023-12-03 00:51:40,309 - Model - INFO - Namespace(batch_size=24, gpu='6', log_dir='pointnet2_part_seg_msg', normal=False, num_point=2048, num_votes=3)
+2023-12-03 00:51:40,386 - Model - INFO - The number of test data is: 2874
+2023-12-03 00:59:36,212 - Model - INFO - eval mIoU of Airplane       0.829804
+2023-12-03 00:59:36,213 - Model - INFO - eval mIoU of Bag            0.834439
+2023-12-03 00:59:36,213 - Model - INFO - eval mIoU of Cap            0.860426
+2023-12-03 00:59:36,213 - Model - INFO - eval mIoU of Car            0.788045
+2023-12-03 00:59:36,213 - Model - INFO - eval mIoU of Chair          0.906851
+2023-12-03 00:59:36,213 - Model - INFO - eval mIoU of Earphone       0.756542
+2023-12-03 00:59:36,213 - Model - INFO - eval mIoU of Guitar         0.911552
+2023-12-03 00:59:36,213 - Model - INFO - eval mIoU of Knife          0.863695
+2023-12-03 00:59:36,217 - Model - INFO - eval mIoU of Lamp           0.839536
+2023-12-03 00:59:36,218 - Model - INFO - eval mIoU of Laptop         0.954299
+2023-12-03 00:59:36,218 - Model - INFO - eval mIoU of Motorbike      0.700790
+2023-12-03 00:59:36,218 - Model - INFO - eval mIoU of Mug            0.948810
+2023-12-03 00:59:36,218 - Model - INFO - eval mIoU of Pistol         0.814967
+2023-12-03 00:59:36,218 - Model - INFO - eval mIoU of Rocket         0.601878
+2023-12-03 00:59:36,218 - Model - INFO - eval mIoU of Skateboard     0.756385
+2023-12-03 00:59:36,218 - Model - INFO - eval mIoU of Table          0.827269
+2023-12-03 00:59:36,219 - Model - INFO - Accuracy is: 0.94101
+2023-12-03 00:59:36,219 - Model - INFO - Class avg accuracy is: 0.86649
+2023-12-03 00:59:36,219 - Model - INFO - Class avg mIOU is: 0.82471
+2023-12-03 00:59:36,219 - Model - INFO - Inctance avg mIOU is: 0.85276
+2023-12-03 01:13:40,039 - Model - INFO - PARAMETER ...
+2023-12-03 01:13:40,039 - Model - INFO - Namespace(batch_size=24, gpu='6', log_dir='pointnet2_part_seg_msg', normal=False, num_point=2048, num_votes=3)
+2023-12-03 01:13:40,115 - Model - INFO - The number of test data is: 2874
+2023-12-03 01:17:21,766 - Model - INFO - eval mIoU of Airplane       0.829346
+2023-12-03 01:17:21,767 - Model - INFO - eval mIoU of Bag            0.832119
+2023-12-03 01:17:21,767 - Model - INFO - eval mIoU of Cap            0.859626
+2023-12-03 01:17:21,767 - Model - INFO - eval mIoU of Car            0.786109
+2023-12-03 01:17:21,767 - Model - INFO - eval mIoU of Chair          0.907062
+2023-12-03 01:17:21,767 - Model - INFO - eval mIoU of Earphone       0.756996
+2023-12-03 01:17:21,767 - Model - INFO - eval mIoU of Guitar         0.908663
+2023-12-03 01:17:21,767 - Model - INFO - eval mIoU of Knife          0.862531
+2023-12-03 01:17:21,767 - Model - INFO - eval mIoU of Lamp           0.840158
+2023-12-03 01:17:21,767 - Model - INFO - eval mIoU of Laptop         0.954166
+2023-12-03 01:17:21,767 - Model - INFO - eval mIoU of Motorbike      0.699418
+2023-12-03 01:17:21,767 - Model - INFO - eval mIoU of Mug            0.947518
+2023-12-03 01:17:21,767 - Model - INFO - eval mIoU of Pistol         0.809691
+2023-12-03 01:17:21,768 - Model - INFO - eval mIoU of Rocket         0.598593
+2023-12-03 01:17:21,768 - Model - INFO - eval mIoU of Skateboard     0.763640
+2023-12-03 01:17:21,768 - Model - INFO - eval mIoU of Table          0.828394
+2023-12-03 01:17:21,768 - Model - INFO - Accuracy is: 0.94154
+2023-12-03 01:17:21,768 - Model - INFO - Class avg accuracy is: 0.86713
+2023-12-03 01:17:21,768 - Model - INFO - Class avg mIOU is: 0.82400
+2023-12-03 01:17:21,768 - Model - INFO - Inctance avg mIOU is: 0.85278
